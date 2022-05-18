@@ -1,0 +1,72 @@
+.wrapper{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    font-family:  monospace;
+    font-style: oblique;
+    font-size: 60px;
+    color:rgb(238, 112, 10);
+    text-align: center;
+    position: relative;   
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(250, 245, 245);
+}
+
+.align{
+    margin-left: 27%;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(180, 211, 219, 0.781);
+    margin: -3px;
+    position: relative;
+    display:inline-block ;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(241, 96, 0, 0.692);
+    background-position: center;
+    margin: -3px;
+    position: relative;
+    display:inline-block;
+}
+
+#cavalo {
+    background-image: url(../img/cavalo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    animation: cavalo 15s infinite ;
+    position: relative; 
+    z-index: 1;
+}
+@keyframes cavalo {
+    10%{top:0px; left:0px;} 
+    15%{top:200px; left:0px;}
+    20%{top:200px; left:100px;}
+    25%{top:200px; left:300px;}
+    30%{top:300px; left:300px;}
+    35%{top:500px; left:300px;}
+    40%{top:500px; left:400px;}
+    45%{top:700px; left:400px;}
+    50%{top:700px; left:500px;}
+    55%{top:500px; left:500px;}
+    60%{top:500px; left:400px;}
+    65%{top:300px; left:400px;}
+    70%{top:300px; left:300px;}
+    75%{top:100px; left:300px;}
+    80%{top:100px; left:200px;}
+    85%{top:100px; left:100px;}
+    85%{top:100px; left:0px;}
+    90%{top:0px; left:0px;}
+}
+
